@@ -1,0 +1,43 @@
+
+.intro{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    transition: 1s;
+}
+
+.logo-header{
+    position: absolute;
+    top: 35%;
+
+    color: #ffffff;
+}
+
+.logo , .desc{
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+} 
+
+.name, .desc_name, .logo_media a{
+    opacity: 0;
+}
+.desc{
+    display: block;
+} 
+
+.logo.active , .desc.active ,.name.active, .desc_name.active, .logo_media a.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+.logo.fade , .desc.fade{
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
