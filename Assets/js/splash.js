@@ -5,6 +5,8 @@ var logo = document.querySelector('.logo');
 var desc = document.querySelector('.desc');
 var names = document.querySelector('.name');
 var desc_name = document.querySelector('.desc_name');
+var name_m = document.querySelector('.name_m');
+var desc_name_m = document.querySelector('.desc_names');
 var logo_media = document.querySelectorAll('.logo_media a');
 // console.log(logo_media);
 
@@ -23,14 +25,16 @@ window.addEventListener('DOMContentLoaded', () => {
                 desc.classList.add('fade');
             }, 50)
         },2000)
-
+        window.location.href = '#home'
         setTimeout(()=>{
             intro.style.top = "-100vh";
             setTimeout(()=>{
                 names.classList.add('active');
+                name_m.classList.add('active');
             }, 1000)
             setTimeout(()=>{
                 desc_name.classList.add('active');
+                desc_name_m.classList.add('active');
             }, 2000)
             setTimeout(()=>{
                 logo_media.forEach((node, index)=>{

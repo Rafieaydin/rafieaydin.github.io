@@ -24,14 +24,14 @@
     opacity: 0;
 } 
 
-.name, .desc_name, .logo_media a{
+.name, .desc_name, .logo_media a, .desc_names  , .name_m{
     opacity: 0;
 }
 .desc{
     display: block;
 } 
 
-.logo.active , .desc.active ,.name.active, .desc_name.active, .logo_media a.active{
+.logo.active , .desc.active ,.name.active, .desc_name.active, .logo_media a.active, .desc_names.active, .name_m.active {
     bottom: 0;
     opacity: 1;
     transition: ease-in-out 0.5s;

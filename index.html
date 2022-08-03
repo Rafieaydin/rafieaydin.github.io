@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./Assets/image/logo.png">
+    <title>Portofolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -89,16 +90,49 @@
     <!--  -->
     <!-- This example requires Tailwind CSS v2.0+ -->
     <!-- <div class="bg-white flex flex-wrap justify-center"> -->
-    <div class="container mx-auto mt-12  h-3/4" id="home">
+    <div class="container mx-auto mt-12  h-3/4 md:block hidden" id="home">
         <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-4 flex justify-center md:h-128 ">
             <div class="px-2 flex justify-center inline ">
                 <img src="./Assets/image3.jpeg" class="md:inline hidden h-3/4 inline w-128   m-0"
                     style="object-fit: cover;" alt="">
             </div>
             <div class="md:my-52 sm:my-20 ml-6 md:ml-0">
-                <div class="text-left md:text-5xl text-4xl  fw-bold font-bold text-zinc-800 uppercase md:mr-20 name">
+                <div class="text-left md:text-5xl text-4xl  md:inline-block hidden  fw-bold font-bold text-zinc-800 uppercase md:mr-20 name">
                     <span class="text-zinx-700">Hello </span>, im rafie</div>
                 <div class="text-left text-2xl w-4/5 mt-4  desc_name">
+                    I'm from Indonesia, My passion is a Backend developer. If you want to hire me or doing some open
+                    souce project please don't hestitate to contact me.
+                </div>
+                <div class="flex  mt-4 md:mr-20 logo_media">
+                    <a href="https://www.instagram.com/dep.loop">
+                        <i class="fab  fa-instagram text-5xl"></i>
+                    </a>
+                    <a href="https://www.facebook.com/yuhnpa">
+                        <i class="fab fa-facebook text-5xl ml-3"></i>
+                    </a>
+                    <a href="https://github.com/Rafieaydin">
+                        <i class="fab fa-github text-5xl ml-3"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rafie-aydin-4a3151210/">
+                        <i class="fab fa-linkedin text-5xl ml-3"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto mt-12  h-3/4 block md:hidden" >
+        <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-4 flex justify-center md:h-128 ">
+            <div class="px-2 flex justify-center inline ">
+                <img src="./Assets/image3.jpeg" class="md:inline hidden h-3/4 inline w-128   m-0"
+                    style="object-fit: cover;" alt="">
+            </div>
+            <div class="md:my-52 sm:my-20 ml-6 md:ml-0">
+                <div class="text-left md:text-5xl text-4xl  fw-bold font-bold text-zinc-800 uppercase md:mr-20 name_m">
+                    <span class="text-zinx-700">Hello </span>, im rafie</div>
+                <div class="text-left text-2xl w-4/5 mt-4  desc_names">
                     I'm from Indonesia, My passion is a Backend developer. If you want to hire me or doing some open
                     souce project please don't hestitate to contact me.
                 </div>
@@ -218,101 +252,6 @@
                     data-aos="fade-up"><span class="text-zinc-700">My</span> Projects</div>
 
                 <div class="mt-20 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 content_project">
-                    <!-- <div class="group relative mb-4 aos-init aos-animate" data-aos="fade-up">
-                        <div
-                            class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg"
-                                alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug."
-                                class="w-full h-full object-center object-cover">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Desk and Office
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Work from home accessories</p>
-                    </div>
-
-                    <div class="group relative mb-4 aos-init aos-animate" data-aos="fade-up">
-                        <div
-                            class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg"
-                                alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant."
-                                class="w-full h-full object-center object-cover">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Self-Improvement
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Journals and note-taking</p>
-                    </div>
-
-                    <div class="group relative mb-4">
-                        <div
-                            class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg"
-                                alt="Collection of four insulated travel bottles on wooden shelf."
-                                class="w-full h-full object-center object-cover">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Travel
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Daily commute essentials</p>
-                    </div>
-
-                    <div class="group relative mb-4 aos-init aos-animate" data-aos="fade-up">
-                        <div
-                            class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg"
-                                alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug."
-                                class="w-full h-full object-center object-cover">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Desk and Office
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Work from home accessories</p>
-                    </div>
-
-                    <div class="group relative mb-4 aos-init aos-animate" data-aos="fade-up">
-                        <div
-                            class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg"
-                                alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant."
-                                class="w-full h-full object-center object-cover">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Self-Improvement
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Journals and note-taking</p>
-                    </div>
-
-                    <div class="group relative mb-4 aos-init aos-animate" data-aos="fade-up">
-                        <div
-                            class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg"
-                                alt="Collection of four insulated travel bottles on wooden shelf."
-                                class="w-full h-full object-center object-cover">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Travel
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Daily commute essentials</p>
-                    </div> -->
                 </div>
             </div>
         </div>
