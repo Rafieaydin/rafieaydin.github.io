@@ -9,7 +9,7 @@ const nodeproject = () => {
           '  <img src="../../Assets/image/'+e.image+'" class="w-full h-full object-center object-cover">'+
        ' </div>'+
         '<h3 class="mt-3 text-sm text-gray-500">'+
-            '<a href="'+e.links+'">'+
+            '<a target="_blank" href="'+e.links+'">'+
                 '<span class="absolute inset-0"></span>'+
                 e.kategori +
             '</a>'+
