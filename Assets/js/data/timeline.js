@@ -10,7 +10,7 @@ const data = [
         "deskripsi" : "Fresh gradate From High School SMK Taruna Bhakti",
     },
     { 
-        "judul" : "Leader team developer",
+        "judul" : "Team Developer Leader",
         "tanggal" : "1 january 2021 - 1 october 2021",
         "deskripsi" : "Fresh gradate From High School SMK Taruna Bhakti",
     }
